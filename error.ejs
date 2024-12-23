@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/error.css">
+</head>
+<body>
+  <main>
+    <% if (locals.result) { %>
+      <h3>User Data:</h3>
+      <pre><%= JSON.stringify(result, null, 2) %></pre>  <!-- Display result in readable JSON format -->
+    <% } else { %>
+      <p>No data to display.</p>
+    <% } %>
+    <form action="redirect" method ="POST">
+<button type="submit" id="error"> click here to continue</button>
+</form>
+  </main>
+</body>
+</html>
