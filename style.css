@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+form {
+  margin: 2em auto;
+  max-width: 400px;
+}
+
+input, button {
+  padding: 1em;
+  margin: 0.5em;
+  width: calc(100% - 2em);
+}
+
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+#result {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
