@@ -1,6 +1,7 @@
-# Product Tracking (product-tracking)
+# Block Chain in supply chain management
 
 A small Node.js + Express project that uses EJS templates, Firebase, and ethers to track and verify products. The repository also contains a Solidity smart contract (`ProductVerification.sol`) used to anchor or verify product information on a blockchain.
+It is mainly used for the tracability of the product through out the supply cahin
 
 ## Contents
 
